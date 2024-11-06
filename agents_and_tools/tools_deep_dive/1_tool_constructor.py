@@ -51,7 +51,7 @@ tools = [
         func=concatenate_strings,  # Function to execute
         name="ConcatenateStrings",  # Name of the tool
         description="Concatenates two strings.",  # Description of the tool
-        args_schema=ConcatenateStringsArgs,  # Schema defining the tool's input arguments
+        args_schema=ConcatenateStringsArgs,  # Schema defining the tool's input arguments # type: ignore
     ),
 ]
 
